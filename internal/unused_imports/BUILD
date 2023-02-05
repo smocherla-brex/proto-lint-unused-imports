@@ -8,7 +8,6 @@ go_library(
     deps = [
         "@com_github_bufbuild_protocompile//:protocompile",
         "@com_github_bufbuild_protocompile//ast",
-        "@com_github_bufbuild_protocompile//linker",
         "@com_github_bufbuild_protocompile//reporter",
     ],
 )
