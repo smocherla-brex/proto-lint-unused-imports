@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package examples.complex.package2;
+
+import "examples/complex/package1/foo.proto";
+
+message BarGreeting {
+    string message = 1;
+}

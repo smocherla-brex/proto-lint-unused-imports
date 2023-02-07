@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package examples.complex.package1;
+
+message FooGreeting {
+    string message = 1;
+}

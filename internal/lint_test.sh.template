@@ -23,4 +23,4 @@ else
 fi
 # --- end runfiles.bash initialization ---
 
-%%unused_imports%% --protos-dir %%protos_dir%% --import-paths %%import_paths%%
+%%unused_imports%% --proto-files %%proto_files%% --import-paths %%import_paths%%

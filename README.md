@@ -32,6 +32,7 @@ Detected unused import in examples/simple/bar.proto at line 6
 import "google/protobuf/descriptor.proto" not used
 ```
 
+A more complex example is in `examples/complex` with unused imports between sibling packages. Here, the test fails for unused imports too.
 
 ## Improvements
 This is currently tested with well-known types and their imports but should also work with workspace-relative imports as all transitive import paths are passed through to Buf's compiler engine.

@@ -32,5 +32,5 @@ go_library(
 
 proto_unused_imports_test(
     name = "simple_proto_test",
-    proto = ":simple_proto",
+    protos = [":simple_proto"],
 )
