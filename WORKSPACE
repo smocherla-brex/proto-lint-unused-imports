@@ -42,12 +42,12 @@ gazelle_dependencies()
 
 http_archive(
     name = "com_google_protobuf",
-    sha256 = "930c2c3b5ecc6c9c12615cf5ad93f1cd6e12d0aba862b572e076259970ac3a53",
-    strip_prefix = "protobuf-3.21.12",
+    sha256 = "4fc5ff1b2c339fb86cd3a25f0b5311478ab081e65ad258c6789359cd84d421f8",
+    strip_prefix = "protobuf-26.1",
     # latest, as of 2020-02-21
     urls = [
-        "https://mirror.bazel.build/github.com/protocolbuffers/protobuf/archive/v3.21.12.tar.gz",
-        "https://github.com/protocolbuffers/protobuf/archive/v3.21.12.tar.gz",
+        "https://mirror.bazel.build/github.com/protocolbuffers/protobuf/archive/v26.1.tar.gz",
+        "https://github.com/protocolbuffers/protobuf/archive/v26.1.tar.gz",
     ],
 )
 
